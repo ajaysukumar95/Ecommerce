@@ -12,7 +12,7 @@
         class="subtext-white pl-4"
       >Commerce is one of the fastest-growing eCommerce communities. We’re proud that the helpfulness of the community and a wealth of online resources are frequently cited as reasons our users love it. There are 80+ meetups worldwide!</h6>
       <v-btn
-        class="custom-transform-class text-none mt-9 px-5 ml-4 py-7 rounder-btn"
+        class="custom-transform-class text-none mt-9 px-5 ml-4 py-7 rounder-btn btn-effect"
         depressed
         color="secondary"
         dark
@@ -44,7 +44,7 @@
         class="subtext-white pl-4"
       >Commerce is one of the fastest-growing eCommerce communities. We’re proud that the helpfulness of the community and a wealth of online resources are frequently cited as reasons our users love it. There are 80+ meetups worldwide!</h6>
       <v-btn
-        class="custom-transform-class text-none mt-9 px-5 ml-4 py-7 rounder-btn"
+        class="custom-transform-class text-none mt-9 px-5 ml-4 py-7 rounder-btn btn-effect"
         depressed
         color="secondary"
         dark
@@ -59,6 +59,11 @@ export default {};
 </script>
 
 <style scoped>
+.btn-effect:hover{
+  box-shadow: 0px 15px 20px #5dcb0047;
+  color: #fff;
+  transform: translateY(-7px);
+}
 .document-image-2 {
       position: relative;
      width: 90%;
@@ -98,23 +103,25 @@ margin-left: 23%;
 }
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
   .document-image-2 {
-         position: relative;
-    height: 550px;
+ position: relative;
+    width: 445px;
+    height: 470px;
     margin-bottom: -12%;
   }
 }
 @media only screen and (min-width: 1441px) {
   .document-image-2 {
-     position: relative;
+        position: relative;
     width: 100%;
-   
+    width: 450px;
     margin-bottom: -12%;
   }
   @media only screen and (min-width: 1681px) {
   .document-image-2 {
-    position: relative;
+       position: relative;
     margin-bottom: -12%;
-    height: 720px;
+    height: 648px;
+    width: 100%;
   }
   .card-title {
     font-family: Montserrat;

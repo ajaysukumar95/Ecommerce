@@ -30,7 +30,7 @@
         class="subtext-white pl-4 text-xs-center"
       >Commerce is developer friendly, too. Built with a REST API, Commerce is scalable and can integrate with virtually any service. Design a complex store from scratch, extend a store for a client, or simply add a single product to a WordPress site—your store, your way.</h6>
       <v-btn
-        class="custom-transform-class text-sm-center text-none mt-9 px-5 ml-4 py-7 rounder-btn"
+        class="custom-transform-class text-sm-center text-none mt-9 px-5 ml-4 py-7 rounder-btn btn-effect"
         depressed
         color="secondary"
         dark
@@ -44,6 +44,11 @@ export default {};
 </script>
 
 <style scoped>
+.btn-effect:hover{
+  box-shadow: 0px 15px 20px #5dcb0047;
+  color: #fff;
+  transform: translateY(-7px);
+}
 .document-image-1 {
   position: relative;
   width: 90%;

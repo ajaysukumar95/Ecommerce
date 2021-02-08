@@ -50,7 +50,7 @@ export default {};
 .activeSubImage-3 {
   position: absolute;
   height: 50%;
-  right: -12%;
+  right: -4%;
   top: 33%;
 }
 </style>

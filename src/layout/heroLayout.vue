@@ -15,7 +15,7 @@
     </v-row>
     <v-row>
       <v-col cols="12" lg="7" class="btn-align">
-        <v-btn class="custom-transform-class text-none rounder-btn" depressed color="primary" dark>Start a New Store</v-btn>
+        <v-btn class="custom-transform-class text-none rounder-btn btn-effect" depressed color="primary" dark>Start a New Store</v-btn>
         <span class="pl-2 subtext">or</span>
         <v-btn plain rounded class="text-capitalize" color="ternary" dark>
           Customize & Extend
@@ -37,6 +37,11 @@ export default {};
     background-position: center top 46em;
     background-size: 80%;
     height: 137vh;
+}
+.btn-effect:hover{
+   box-shadow: 0px 15px 20px #8c57ff2e;
+  color: #fff;
+  transform: translateY(-7px);
 }
 .hero-title {
   font-family: Montserrat;

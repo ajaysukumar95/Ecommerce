@@ -36,14 +36,14 @@
       data-aos-duration="1000"
     >
       <v-row class="padding-lg">
-        <v-col cols="12" offset-sm="2" xs="12" sm="6">
+        <v-col cols="12" offset-sm="2" xs="12" class="pa-0" sm="6">
           <h3 class="support-title text-xs-center">
             Commerce - the
             <strong>most customizable eCommerce platform</strong> for building
             <strong>your online business.</strong>
           </h3>
         </v-col>
-        <v-col cols="12" xs="12" sm="3" class="text-center">
+        <v-col cols="12" xs="12" sm="3" class="text-center pa-0">
           <v-btn
             class="px-7 py-7 rounder-btn font-weight-bold"
             outlined
@@ -69,9 +69,9 @@ export default {};
   font-size: 43px;
 }
 .support-bg {
-  background: url(/img/supportBg.a94fdfa5.svg) no-repeat;
+  background: url(../assets/image/supportBg.svg) no-repeat;
   background-size: cover;
-  background-position: 0rem 3rem;
+  background-position: 0rem 1rem;
 }
 .people-group {
   width: 73%;
@@ -87,7 +87,7 @@ export default {};
   position: relative;
 }
 .padding-lg {
-  padding: 70px 20px;
+  padding: 90px 0px;
 }
 .support-cirlce {
   position: absolute;
